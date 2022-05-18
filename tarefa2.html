@@ -13,7 +13,7 @@
         function mostraHora() { // função que motra a hora na págia web
             let titulo = document.querySelector('h1');
             let agora = new Date();
-            titulo.textContent = agora.toLocaleDateString();
+            titulo.textContent = agora.toLocaleTimeString();
         }
         mostraHora();
     </script>
