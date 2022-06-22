@@ -1,4 +1,6 @@
 document.addEventListener('DOMContentLoaded', ComandaTodas);//Depois de documento atml carredo ele executará função comanda todas
+
+
 function ComandaTodas() {
     if(document.querySelector('h1') !== null){
         const elemento = 'h1';
@@ -50,7 +52,7 @@ function InserirBotao() {
     div = document.createElement('div');
     div.style.backgroundColor = 'red';
     div.innerHTML = `
-    <button onclick="AumentarTamanho()">+</button>
-    <button onclick="DiminuirTamanho">-</button>
+    <button onclick="AlmentarTamanhoTexto()">+</button>
+    <button onclick="DiminuirTamanhoTexto()">-</button>
     `;
 }//fim função que inseri botões
