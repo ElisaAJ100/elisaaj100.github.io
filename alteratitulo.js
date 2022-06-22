@@ -46,4 +46,11 @@ function DiminuirTamanhoTexto(elemento) {
     elementoSelecionado.style.size -= x;
 }//fim função diminuir tamanho
 
-function InserirBotao() {}//fim função que inseri botões
+function InserirBotao() {
+    div = document.createElement('div');
+    div.style.backgroundColor = 'red';
+    div.innerHTML = `
+    <button onclick="AumentarTamanho()">+</button>
+    <button onclick="DiminuirTamanho">-</button>
+    `;
+}//fim função que inseri botões
