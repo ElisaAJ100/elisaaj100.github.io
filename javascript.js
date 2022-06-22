@@ -1,17 +1,22 @@
-const subtitulos = document.querySelectorAll('h3');
+const subtitulos = document.querySelectorAll("h2");
 const topicos = new Array();
-subtitulos.forEach(titulo => {
-    topicos.push(titulo.textContent);
-    const Name = document.createElement("a");
-    Name.setAttribute("name", element.textContent);
-	element.append(Name);
+subtitulos.forEach(element => {
+	topicos.push(element.textContent);
+	
+	const arco = document.createElement("a");
+	arco.setAttribute("name", element.textContent);
+	element.append(arco);
+	
+	
 });
-ListaCriada = document.querySelector('ol');
+
+const lista = document.querySelector("ol");
 topicos.forEach(topico => {
-    const item = document.createElement('li');
-    const linkelemento = document.createElement('a');
-    ListaCriada.append(item);
-    item.append(linkelemento);
-    linkelemento.setAttribute('href', `#${topico}`);
-    linkelemento.textContent = topico;
+	const item = document.createElement("li");
+	const link = document.createElement("a");
+	lista.append(item);
+	item.append(link);
+	link.setAttribute("href", `#${topico}`);
+	link.textContent = topico;
+
 });
