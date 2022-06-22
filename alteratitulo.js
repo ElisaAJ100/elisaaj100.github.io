@@ -1,4 +1,3 @@
-document.addEventListener('DOMContentLoaded', ComandaTodas());//Depois de documento atml carredo ele executará função comanda todas
 
 
 function ComandaTodas() {
