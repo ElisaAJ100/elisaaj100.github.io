@@ -1,4 +1,4 @@
-const subtitulos = document.querySelectorAll("h3");
+const subtitulos = document.querySelectorAll("h2");
 const topicos = new Array();
 subtitulos.forEach(element => {
 	topicos.push(element.textContent);
