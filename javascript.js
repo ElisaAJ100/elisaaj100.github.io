@@ -11,5 +11,9 @@ const topicos = new Array();
 titulos.forEach(titulo => {
     topicos.push(titulo.textContent);
 });
-paragrafo = document.querySelector('p');
-paragrafo.textContent = topicos + '.';
+lista = document.querySelector('ol');
+topicos.forEach(topico => {
+    const item = document.createElement('li');
+    item.textContent = topico;
+    lista.append(item);
+});
