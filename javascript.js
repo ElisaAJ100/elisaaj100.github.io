@@ -6,7 +6,10 @@ subtitulos.forEach(element => {
 	const x = document.createElement('a');
 	x.setAttribute("name", element.textContent);
 	element.append(x);
+	
+
 });
+
 const lista = document.querySelector('ol');
 topicos.forEach(topico => {
 	const item = document.createElement('li');
@@ -15,4 +18,5 @@ topicos.forEach(topico => {
 	item.append(linkelemnto);
 	linkelemnto.setAttribute("href", `#${topico}`);
 	linkelemnto.textContent = topico;
+
 });
