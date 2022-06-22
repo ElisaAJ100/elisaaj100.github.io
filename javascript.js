@@ -12,4 +12,4 @@ titulos.forEach(titulo => {
     topicos.push(titulo.textContent);
 });
 paragrafo = document.querySelector('p');
-paragrafo.textContent = topicos
+paragrafo.textContent = topicos + '.';
