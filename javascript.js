@@ -19,4 +19,4 @@ topicos.forEach(topico => {
 	linkelemnto.setAttribute("href", `#${topico}`);
 	linkelemnto.textContent = topico;
 
-});
+}); 
