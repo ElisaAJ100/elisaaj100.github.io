@@ -9,7 +9,7 @@ function start(){
             const elemento = 'h2';
             alert('h2 selecionado');
         }//fim if com h2
-        else{
+        else{ 
             if(document.querySelector('h3') !== null){
                 const elemento = 'h3';
                 alert('h3 selecionado');
