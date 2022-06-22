@@ -4,7 +4,7 @@ subtitulos.forEach(titulo => {
     topicos.push(titulo.textContent);
     const Name = document.createElement("a");
     Name.setAttribute("name", element.textContent);
-	element.append(arco);
+	element.append(Name);
 });
 ListaCriada = document.querySelector('ol');
 topicos.forEach(topico => {
