@@ -55,4 +55,5 @@ function InserirBotao() {
     <button onclick="AlmentarTamanhoTexto()">+</button>
     <button onclick="DiminuirTamanhoTexto()">-</button>
     `;
+    document.body.prepend(div);
 }//fim função que inseri botões
