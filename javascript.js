@@ -9,4 +9,3 @@ topicos.forEach(topico => {
     item.textContent = topico;
     ListaCriada.append(item);
 });
-S
