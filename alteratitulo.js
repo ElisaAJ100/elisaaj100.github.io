@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', InserirBotao)
+document.addEventListener('DOMContentLoaded', start)
 function start(){
     if(document.querySelector('h1') !== null){
         const elemento = 'h1';
