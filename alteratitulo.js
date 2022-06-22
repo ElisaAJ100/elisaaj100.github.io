@@ -1,6 +1,9 @@
 if(document.querySelector('h1') !== null){
     const elemento = 'h1';
     alert('h1 selecionado');
+    const botao = document.createElement('button')
+    boatao.textContent = '+';
+    botao.textContent = '-';
 }
 else{
     if(document.querySelector('h2') !== null){
