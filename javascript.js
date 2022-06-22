@@ -5,6 +5,7 @@ subtitulos.forEach(titulo => {
 });
 ListaCriada = document.querySelector('ol');
 topicos.forEach(topico => {
+    const centro = document.createElement('center')
     const item = document.createElement('li');
     item.textContent = topico;
     ListaCriada.append(item);
