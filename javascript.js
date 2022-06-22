@@ -3,9 +3,9 @@ const topicos = new Array();
 subtitulos.forEach(element => {
 	topicos.push(element.textContent);
 	
-	const arco = document.createElement('a');
-	arco.setAttribute("name", element.textContent);
-	element.append(arco);
+	const x = document.createElement('a');
+	x.setAttribute("name", element.textContent);
+	element.append(x);
 	
 	
 });
@@ -13,10 +13,10 @@ subtitulos.forEach(element => {
 const lista = document.querySelector('ol');
 topicos.forEach(topico => {
 	const item = document.createElement('li');
-	const link = document.createElement('a');
+	const linkelemnto = document.createElement('a');
 	lista.append(item);
-	item.append(link);
-	link.setAttribute("href", `#${topico}`);
-	link.textContent = topico;
+	item.append(linkelemnto);
+	linkelemnto.setAttribute("href", `#${topico}`);
+	linkelemnto.textContent = topico;
 
 });
